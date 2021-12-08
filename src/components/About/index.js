@@ -16,7 +16,7 @@ const About = () => (
         <div className="inner-body-left">
           <h1 className="name"> Arun Kumar Baddam</h1>
           <p>
-            S/o <span className="f-name">Ramana Reddy</span>
+            S/o: <span className="f-name">Ramana Reddy</span>
           </p>
           <p>
             I am very <span className="keyword">enthusiastic</span> piece in my
