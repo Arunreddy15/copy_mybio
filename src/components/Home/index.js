@@ -13,7 +13,7 @@ const Home = () => (
         <p>
           I am an exciting employee in the new environment.
           <br /> I believe enjoying a daily job is directly proportional to
-          career growth.
+          career <span className="span-iam">growth</span>.
         </p>
         <Link to="/about">
           <button type="button" className="more-btn">
@@ -26,12 +26,13 @@ const Home = () => (
           </a>
         </button>
       </div>
+      <div className="home-pic-background-box">
       <div className="home-pic">
         <img
           alt="myp"
           src="https://res.cloudinary.com/imagelinks/image/upload/v1637499169/arun_nrljpt.jpg"
         />
-      </div>
+      </div></div>
     </div>
   </div>
 );
